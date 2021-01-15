@@ -1,0 +1,86 @@
+h1 {
+	position: sticky;
+	top:0;
+	color:#364f6b;
+	font-family:calibri;
+	font-size: 2cm ;
+	text-align:center;
+	background-color:white;
+	}
+h2 {
+	color:#fc5185;
+	font-family:hebrew;
+	font-size: 1cm;	
+	}
+h3 {
+	color:#364f6b;
+	font-family:hebrew;
+	font-size: 0.75cm;	
+}
+body{
+	background-color:white
+	font-family: calibri ;
+	font-size:14pt;
+	margin :25px;
+	
+}
+.border
+{
+	line-height:125%;
+	border: 3px solid gray;
+	border-radius: 8px;
+	border-width: 5px;
+	text-align:justify;
+	padding: 30px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column
+{
+	float:left;
+	padding: 10px;
+}
+.column.big
+{
+	width:70%;
+}
+.column.small
+{
+	width:25%;
+}
+.bord
+{	
+	line-height:75%;
+	border: 1px dotted gray;
+	border-radius: 8px;
+	border-width: 5px;
+	padding: 10px;
+}
+.sticky
+{
+	position:sticky;
+	top: 80px;
+}
+.hp2
+{
+	font-size:12pt;
+	color: gray;
+}
+a
+{
+	font-size:14pt;
+	 color:black;
+}
