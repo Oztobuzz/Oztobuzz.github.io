@@ -1,4 +1,6 @@
 # Oztobuzz.github.io
-This is one of the first website that I have build in my junior year, It just mainly in vanilla HTML and CSS. 
+This is one of the first website that I have built in my junior year, It just mainly in vanilla HTML and CSS. 
 
-Served for Introduction to Computing
+Website served using github pages
+
+Introduction to Computing Assignment
