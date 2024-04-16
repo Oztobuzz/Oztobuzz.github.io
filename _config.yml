@@ -12,9 +12,9 @@ title                    : "Oanh Tran"
 title_separator          : "-"
 name                     : &name "Oanh Tran"
 description              : &description "personal description"
-url                      : https://Oztobuzz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://oztobuzz.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Oztobuzz/Oztobuzz.github.io
+repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,9 +22,9 @@ repository               : "Oztobuzz/Oztobuzz.github.io
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Oanh Tran"
-  pronouns         : "she/her"  
-  bio              : "HCMUT_Computer Science class of 2020| NLP-enthusiast/researcher | NLP | Trustworthy AI | Multimodal AI"
+  name             : "Tran Ngoc Oanh"
+  pronouns         : # example: "she/her"  
+  bio              : "HCMUT_Computer Science class of 2020| NLP-enthusiast/researcher"
   location         : "Vietnam"
   # employer         : "Red Brick University"
   uri              : # URL
@@ -42,12 +42,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/Oztobuzz"
-  kaggle           : # Username  
+  github           : "Oztobuzz"
+  kaggle           : oanhtran1123
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
   huggingface      : "mdjsfhkjashdf"
 
   # Social media
+  bluesky          :  # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
