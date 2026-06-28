@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Oanh Tran"
+title                    : "Oanh N. Tran"
 title_separator          : "-"
-name                     : &name "Oanh Tran"
-description              : &description "Personal website for Oanh N. Tran"
-url                      : https://oztobuzz.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Oanh N. Tran"
+description              : &description "Oanh N. Tran is a Computer Science researcher at VinUniversity advised by Prof. Khoa D. Doan, studying failure modes and behavioral reliability in multimodal AI systems."
+url                      : https://oztobuzz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Oztobuzz/Oztobuzz.github.io"
 
@@ -25,12 +25,13 @@ author:
   name             : "Oanh N. Tran"
   pronouns         : "she/her"  
   bio              : "It's not hard; it's just new."
-  location         : "Vietnam"
-  # employer         : "Red Brick University"
-  uri              : # URL
+  location         : "Hanoi, Vietnam"
+  employer         : "VinUniversity"
+  uri              : "https://oztobuzz.github.io/"
   email            : "26oanh.tn@vinuni.edu.vn" 
 
   # Academic websites
+  arxiv            : "https://arxiv.org/search/cs?searchtype=author&query=Tran,+O.+N."
   googlescholar    : https://scholar.google.com/citations?user=KVn6aP8AAAAJ&hl=en
   impactstory      : # URL
   orcid            : https://orcid.org/0009-0006-4624-8142
@@ -118,18 +119,26 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter tno_112302
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile_avatar.jpeg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Oanh N. Tran"
+  links:
+    - "https://oztobuzz.github.io/"
+    - "https://scholar.google.com/citations?user=KVn6aP8AAAAJ&hl=en"
+    - "https://orcid.org/0009-0006-4624-8142"
+    - "https://github.com/Oztobuzz"
+    - "https://www.linkedin.com/in/oanhtran2002"
+    - "https://huggingface.co/Oztobuzz"
+    - "https://x.com/tno_112302"
+    - "https://vinuni.edu.vn/people/khoa-d-doan-phd/"
 
 
 # Analytics
