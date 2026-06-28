@@ -55,24 +55,30 @@ $sidebar-link-max-width     : 250px;
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
+$main-blue                  : #224E87;
+$accent-red                 : #C94C4C;
+$site-background            : #F5EFE6;
+$support-blue               : #7FB3E6;
+$support-green              : #9CAF88;
+
+$gray                       : #6f756c;
+$dark-gray                  : mix(#000, $main-blue, 35%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$lighter-gray               : mix(#fff, $site-background, 55%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
+$body-color                 : $site-background;
+$background-color           : $site-background;
+$code-background-color      : mix(#fff, $site-background, 35%);
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$border-color               : mix(#fff, $support-green, 55%);
 
-$primary-color              : #7a8288;
+$primary-color              : $main-blue;
 $success-color              : #62c462;
 $warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$danger-color               : $accent-red;
+$info-color                 : $support-blue;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -102,11 +108,11 @@ $xing-color                 : #006567;
 
 
 /* links */
-$link-color                 : $info-color;
+$link-color                 : $main-blue;
 $link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
+$link-color-visited         : mix($accent-red, $link-color, 35%);
 $masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color-hover  : $accent-red;
 
 
 /*

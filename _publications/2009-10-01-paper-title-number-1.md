@@ -2,10 +2,11 @@
 title: "Low-Rank Adaptation Approach for Vietnamese-Bahnaric Lexical Mapping from Non-Parallel Corpora"
 collection: publications
 # permalink: /publication/2009-10-01-paper-title-number-1z`
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'A low-rank adaptation approach for learning Vietnamese-Bahnaric lexical mappings from non-parallel corpora in low-resource settings.'
 date: 2023-10-01
 venue: 'The 3rd Symposium on Computer Science & Engineering'
 paperurl: 'http://Oztobuzz.github.io/files/ASK.pdf'
+authors: '<strong>Oanh N. Tran</strong>, et al.'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 

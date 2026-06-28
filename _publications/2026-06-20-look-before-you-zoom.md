@@ -6,6 +6,8 @@ excerpt: "ViRGo adaptively routes visual question answering between global perce
 date: 2026-06-20
 venue: "ICML 2026 Workshop on Efficient Multimodal Question Answering"
 paperurl: "https://arxiv.org/abs/2606.21968"
+arxiv: "https://arxiv.org/abs/2606.21968"
+authors: "<strong>Oanh N. Tran</strong>, Thanh Quoc Hung Le, Oscar Chew, Kuan-Hao Huang, Khoa D. Doan"
 citation: "Oanh N. Tran, Thanh Quoc Hung Le, Oscar Chew, Kuan-Hao Huang, and Khoa D. Doan. &quot;Look Before You Zoom: Adaptive Routing for the Resolution-Context Trade-off in Visual RAG.&quot; ICML 2026 Workshop on Efficient Multimodal Question Answering, 2026."
 ---
 

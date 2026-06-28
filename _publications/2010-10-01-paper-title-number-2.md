@@ -2,10 +2,12 @@
 title: "Cross-Data Knowledge Graph Construction for LLM-enabled Educational Question-Answering System: A Case Study at HCMUT"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
+excerpt: 'A method for constructing a Knowledge Graph from cross-data educational sources and applying it with LLMs for domain-specific question answering.'
 date: 2024-10-01
 venue: 'arXiv preprint'
 paperurl: 'https://arxiv.org/abs/2404.09296'
+arxiv: 'https://arxiv.org/abs/2404.09296'
+authors: '<strong>Oanh N. Tran</strong>, et al.'
 # citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
 

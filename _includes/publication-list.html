@@ -1,0 +1,39 @@
+{% include base_path %}
+
+<div class="publication-list">
+  {% for post in site.publications reversed %}
+    <article class="publication-item">
+      <h3 class="publication-title">
+        <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+      </h3>
+
+      {% if post.venue %}
+        <div class="publication-venue">{{ post.venue }}</div>
+      {% endif %}
+
+      {% if post.authors %}
+        <div class="publication-authors">{{ post.authors }}</div>
+      {% endif %}
+
+      {% if post.excerpt %}
+        <p class="publication-summary">{{ post.excerpt }}</p>
+      {% endif %}
+
+      <div class="publication-links">
+        <a href="{{ base_path }}{{ post.url }}">Details</a>
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}">Paper</a>
+        {% endif %}
+        {% if post.arxiv %}
+          <a href="{{ post.arxiv }}">arXiv</a>
+        {% endif %}
+        {% if post.code %}
+          <a href="{{ post.code }}">Code</a>
+        {% endif %}
+        {% if post.project %}
+          <a href="{{ post.project }}">Project</a>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>
