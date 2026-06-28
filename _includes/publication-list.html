@@ -3,13 +3,14 @@
 <div class="publication-list">
   {% for post in site.publications reversed %}
     <article class="publication-item">
-      <h3 class="publication-title">
-        <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-      </h3>
-
-      {% if post.venue %}
-        <div class="publication-venue">{{ post.venue }}</div>
-      {% endif %}
+      <div class="publication-header">
+        <h3 class="publication-title">
+          <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+          {% if post.venue %}
+            <span class="publication-venue">{{ post.venue }}</span>
+          {% endif %}
+        </h3>
+      </div>
 
       {% if post.authors %}
         <div class="publication-authors">{{ post.authors }}</div>

@@ -50,10 +50,6 @@
 
 .page__content {
 
-  h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
-  }
 
   p, li, dl {
     font-size: 1em;
@@ -106,6 +102,47 @@
     padding-left: 1.25rem;
   }
 
+  .section-content {
+    margin-left: 0.8rem;
+
+    @include breakpoint(max-width $small) {
+      margin-left: 0.35rem;
+    }
+  }
+
+  .pronunciation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.55rem;
+    margin: -0.25rem 0 1.3rem;
+    color: $gray;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+  }
+
+  .pronunciation-label {
+    color: $primary-color;
+    font-weight: 700;
+  }
+
+  .pronunciation-button {
+    padding: 0.18rem 0.5rem;
+    border: 1px solid mix(#fff, $primary-color, 68%);
+    border-radius: 4px;
+    background: mix(#fff, $site-background, 30%);
+    color: $primary-color;
+    font-family: $sans-serif;
+    font-size: $type-size-7;
+    line-height: 1.35;
+    cursor: pointer;
+
+    &:hover {
+      border-color: $accent-red;
+      color: $accent-red;
+    }
+  }
+
   .news-list {
     margin-left: 0;
     padding-left: 0;
@@ -146,9 +183,13 @@
     }
   }
 
+  .publication-header {
+    margin-bottom: 0.35rem;
+  }
+
   .publication-title {
-    margin: 0 0 0.35rem;
-    font-size: $type-size-4;
+    margin: 0;
+    font-size: $type-size-5;
     line-height: 1.25;
 
     a {
@@ -162,15 +203,17 @@
 
   .publication-venue {
     display: inline-block;
-    margin-bottom: 0.45rem;
+    margin-left: 0.45rem;
+    margin-bottom: 0;
     padding: 0.15rem 0.45rem;
     border: 1px solid mix(#fff, $support-blue, 35%);
     border-radius: 4px;
     background: mix(#fff, $support-blue, 80%);
-    color: $primary-color;
+    color: $accent-red;
     font-family: $sans-serif;
     font-size: $type-size-6;
     line-height: 1.35;
+    white-space: nowrap;
   }
 
   .publication-authors {

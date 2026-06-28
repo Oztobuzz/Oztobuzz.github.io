@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2026-06-20-look-before-you-zoom
 excerpt: "ViRGo adaptively routes visual question answering between global perception, patch-based retrieval, and attention-based retrieval to improve the accuracy-efficiency trade-off."
 date: 2026-06-20
-venue: "ICML 2026 Workshop on Efficient Multimodal Question Answering"
+venue: "EMM-QA @ ICML 2026"
 paperurl: "https://arxiv.org/abs/2606.21968"
 arxiv: "https://arxiv.org/abs/2606.21968"
 authors: "<strong>Oanh N. Tran</strong>, Thanh Quoc Hung Le, Oscar Chew, Kuan-Hao Huang, Khoa D. Doan"

@@ -4,10 +4,10 @@ collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'A method for constructing a Knowledge Graph from cross-data educational sources and applying it with LLMs for domain-specific question answering.'
 date: 2024-10-01
-venue: 'arXiv preprint'
+venue: "AIQAM '24 @ ACM Multimedia 2024"
 paperurl: 'https://arxiv.org/abs/2404.09296'
 arxiv: 'https://arxiv.org/abs/2404.09296'
-authors: '<strong>Oanh N. Tran</strong>, et al.'
+authors: 'Tuan Bui, <strong>Oanh Tran</strong>, Phuong Nguyen, Bao Ho, Long Nguyen, Thang Bui, Tho Quan'
 # citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
 ---
 

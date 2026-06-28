@@ -146,6 +146,11 @@
 
 .author__bio {
   margin: 0;
+  padding-left: 0.65rem;
+  border-left: 3px solid $accent-red;
+  color: $gray;
+  font-family: $serif;
+  font-style: italic;
 
   @include breakpoint($large) {
     margin-top: 10px;
