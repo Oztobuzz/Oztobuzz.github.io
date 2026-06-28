@@ -1,41 +1,162 @@
+# Oanh Tran Personal Website
 
-# Academic Pages
+This is my personal academic website built with Jekyll and GitHub Pages.
 
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+## Common Edits
 
-Academic Pages is a Github Pages template for academic websites.
+### Change the About page
 
+Edit:
 
-# Getting Started
+```text
+_pages/about.md
+```
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+This file contains the main bio, useful links, News section, and the Publications list.
 
-See more info at https://academicpages.github.io/
+### Add or update News
 
-## Running Locally
+Edit the `News` section in:
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+```text
+_pages/about.md
+```
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+Add a new bullet at the top:
 
+```markdown
+- **Month Year:** Your update here.
+```
 
-# Maintenance 
+### Add a publication
 
-Bug reports and feature requests to the template  should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+Create a new Markdown file in:
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+```text
+_publications/
+```
 
-## Bugfixes and enhancements
+Use a filename like:
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+```text
+YYYY-MM-DD-short-paper-title.md
+```
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+Copy this template:
+
+```markdown
+---
+title: "Paper title"
+collection: publications
+permalink: /publication/YYYY-MM-DD-short-paper-title
+excerpt: "One sentence summary."
+date: YYYY-MM-DD
+venue: "Venue name"
+paperurl: "https://paper-link"
+citation: "Author list. Paper title. Venue, Year."
+---
+
+Short description of the paper.
+```
+
+### Add a blog post
+
+Create a new Markdown file in:
+
+```text
+_posts/
+```
+
+Use this filename format:
+
+```text
+YYYY-MM-DD-short-title.md
+```
+
+Use this template:
+
+```markdown
+---
+title: "Post title"
+date: YYYY-MM-DD
+permalink: /blog/post-title/
+tags:
+  - research
+---
+
+Write the blog post here.
+```
+
+The blog index is at:
+
+```text
+_pages/year-archive.html
+```
+
+Normally you do not need to edit it.
+
+### Change the profile photo
+
+Replace these files:
+
+```text
+images/profile_image.jpeg
+images/profile_avatar.jpeg
+```
+
+`profile_image.jpeg` keeps the original photo. `profile_avatar.jpeg` is the cropped sidebar avatar used by the site.
+
+The avatar is configured in:
+
+```text
+_config.yml
+```
+
+Look for:
+
+```yaml
+author:
+  avatar: "profile_avatar.jpeg"
+```
+
+### Replace the resume
+
+Replace:
+
+```text
+files/My_resume_2026_Jan.pdf
+```
+
+The About page links to this file.
+
+### Change navigation
+
+Edit:
+
+```text
+_data/navigation.yml
+```
+
+Current main pages are About and Blog.
+
+## Preview Locally
+
+Install dependencies:
+
+```bash
+bundle install
+```
+
+Start the local site:
+
+```bash
+bundle exec jekyll serve
+```
+
+Open:
+
+```text
+http://localhost:4000
+```
+
+Note: this site may need Ruby 3+ for current GitHub Pages dependencies.
