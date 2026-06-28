@@ -11,21 +11,15 @@ My name is **Oanh N. Tran**. I am a Computer Science researcher interested in tr
 
 My recent work studies how models can reason more efficiently over visual evidence, including retrieval-augmented and adaptive routing methods for multimodal question answering.
 
-Useful links
-======
-
-- [Resume](/files/My_resume_2026_Jan.pdf)
-- [GitHub](https://github.com/Oztobuzz)
-- [Kaggle](https://www.kaggle.com/oanhtran1123)
-- [Hugging Face](https://huggingface.co/mdjsfhkjashdf)
-- [arXiv author search](https://arxiv.org/search/cs?searchtype=author&query=Tran,+O.+N.)
-- [Email](mailto:oanh.tranotsc1123@hcmut.edu.vn)
 
 News
 ======
 
-- **June 2026:** Our paper, "Look Before You Zoom: Adaptive Routing for the Resolution-Context Trade-off in Visual RAG," was accepted at the ICML 2026 Workshop on Efficient Multimodal Question Answering.
-- **January 2026:** Updated resume and personal website.
+- **June 2026:** Our paper, “Look Before You Zoom: Adaptive Routing for the Resolution-Context Trade-off in Visual RAG,” was accepted to the ICML 2026 Workshop on Efficient Multimodal Question Answering.
+- **November 2024:** I graduated from HCMUT with a GPA of 3.6/4.0.
+- **August 2024:** I started working as a Research Assistant at the MAIL Research Group.
+- **June 2024:** Our paper, “Cross-Data Knowledge Graph Construction for LLM-enabled Educational Question-Answering System: A Case Study at HCMUT,” was accepted to AIQAM ’24: Proceedings of the 1st ACM Workshop on AI-Powered Q&A Systems for Multimedia.
+
 
 Publications
 ======
