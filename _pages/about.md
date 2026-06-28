@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Oanh N. Tran | VinUniversity AI Researcher"
-description: "Oanh N. Tran is a Computer Science researcher at VinUniversity working on failure modes, behavioral reliability, evaluation, and mitigation for multimodal AI systems."
+title: "Oanh N. Tran"
+description: "Oanh N. Tran is a research assistant at VinUniversity working on failure modes, behavioral reliability, evaluation, and mitigation for multimodal AI systems."
 author_profile: true
 redirect_from:
   - /about/
@@ -14,7 +14,7 @@ redirect_from:
   <button type="button" class="pronunciation-button" data-pronounce-text="Wahn Trun" data-pronounce-lang="en-US">Listen English</button>
 </div>
 
-Hello, my name is **Oanh N. Tran** (also **Oanh Tran**, **Tran Ngoc Oanh**, **Trần Ngọc Oanh**). I am a Computer Science researcher at **[VinUniversity](https://vinuni.edu.vn/)**, advised by **[Prof. Khoa D. Doan](https://vinuni.edu.vn/people/khoa-d-doan-phd/)**. My research studies failure modes and behavioral reliability in multimodal AI systems, with a focus on understanding why these systems behave unreliably and how to mitigate their failures.
+Hello, my name is **Oanh N. Tran** (also **Oanh Tran** or **Tran Ngoc Oanh**). I am a research assistant at **[VinUniversity](https://vinuni.edu.vn/)**, advised by **[Prof. Khoa D. Doan](https://vinuni.edu.vn/people/khoa-d-doan-phd/)**. My research studies failure modes and behavioral reliability in multimodal AI systems, with a focus on understanding why these systems behave unreliably and how to mitigate their failures.
 
 
 Beyond AI, I enjoy playing **Teamfight Tactics (TFT)** and **Ultimate Disc** 🥏, as well as trying new recipes through **cooking and baking** 🍳🧁—though definitely not washing dishes 🫧.
